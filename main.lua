@@ -26,7 +26,6 @@ function love.load()
 
     -- Initialize the window
     love.window.setTitle(Game.title .. " - " .. Game.version)
-    love.window.setMode(600, 600)
 
     -- Initialize the map
     Map = GameMap:new()
