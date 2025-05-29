@@ -37,9 +37,6 @@ function love.load()
     -- Initialize the snake food
     Food = Food_Item:new()
 
-    print(tostring(GameMap))
-    print(tostring(Player))
-
     Game.idle = true
 end
 
